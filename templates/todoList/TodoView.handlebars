@@ -1,0 +1,11 @@
+<form>
+	<p>What needs to be done?</p>
+	<input name="title" type="text" />
+</form>
+{{#collection tag="ul"}}
+  <li {{#done}}class="done"{{/done}}>
+    <input type="checkbox" {{#done}}checked{{/done}}>
+    {{title}}
+    <button>delete</button>
+  </li>
+{{/collection}}

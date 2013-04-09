@@ -1,0 +1,4 @@
+/* This stylesheet will be available on all modules */
+.done {
+	text-decoration: line-through;
+}
